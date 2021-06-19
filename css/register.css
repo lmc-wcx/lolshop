@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+.left{
+    width: 480px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/01-1.jpg);
+}
+.logo{
+    position: fixed;
+    height: 43px;
+    font-size: 30px;
+    line-height: 43px;
+    z-index: 20;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.logo img{
+    height: 43px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.right{
+    width: 100%;
+    padding-left: 480px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: lightgrey;
+}
+.right-form{
+    width: 480px;
+    margin: 0 auto;
+}
+input{
+    outline: none;
+    border: 1px solid lightgrey;
+    width: 480px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+h1,h2{
+    color: black;
+    width: 480px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 40px;
+    margin-top: 100px;
+}
+h2{
+    font-size: 28px;
+    margin-top: 25px;
+}
+h4{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.agree{
+    width: 12px;
+    height: 12px;
+}
+.login-btn{
+    width: 480px;
+    height: 50px;
+    background-color: #3487ff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}

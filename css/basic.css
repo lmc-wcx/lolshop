@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+fieldset, img, button {
+    border: 0px;
+}
+
+li {
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+input, label, select, font, option, textarea, button, fieldset, legend {
+    font: 12px/18px "微软雅黑", "宋体";
+}
+
+table {
+    font-size: 12px;
+    font-family: "微软雅黑", "宋体";
+}
+
+ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑", "宋体";
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
